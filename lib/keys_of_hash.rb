@@ -1,6 +1,5 @@
 class Hash
-  def keys_of(arguments)
-    animal_hash = ["red-footed tortoise", "aye-aye"]
-  end
-end
+  def keys_of(*arguments)
+    map {|key, value| arguments.include?(value) ? key : nil }.compact
+ end
 end
