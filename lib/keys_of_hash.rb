@@ -1,5 +1,6 @@
 class Hash
   def keys_of(arguments)
-    # code goes here
+    animal_hash = ["red-footed tortoise", "aye-aye"]
   end
+end
 end
